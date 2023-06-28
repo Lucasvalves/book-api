@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction  } from 'express'
-import { User } from '../models'
 import { compare, hash } from 'bcrypt'
 import { UserRepository } from '../repositories/UserRepository'
 
